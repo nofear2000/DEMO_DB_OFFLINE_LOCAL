@@ -123,6 +123,8 @@
     <Folder Include="dbo\Tables\" />
     <Folder Include="Security\" />
     <Folder Include="Snapshots" />
+    <Folder Include="dbo\Programmability" />
+    <Folder Include="dbo\Programmability\Stored Procedures" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="dbo\Tables\DIM_DATE.sql">
@@ -171,10 +173,9 @@
     <Build Include="Security\student_1.sql" />
     <Build Include="Security\RoleMemberships.sql" />
     <Build Include="dbo\Tables\JunkTable.sql" />
+    <Build Include="dbo\Programmability\Stored Procedures\dbo.usp_JunkTable_select.sql" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Snapshots\DEMO_OFFLINE_LOCAL_20190407_19-54-52.dacpac">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
+    <None Include="Snapshots\DEMO_OFFLINE_LOCAL_20190409_16-05-08.dacpac" />
   </ItemGroup>
 </Project>
